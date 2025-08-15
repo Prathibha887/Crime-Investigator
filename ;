@@ -1,0 +1,388 @@
+Initial commit
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Jun 25 21:10:31 2025 +0530
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   404.html
+#	new file:   Criminal-Identification-System-master/.idea/.gitignore
+#	new file:   Criminal-Identification-System-master/.idea/.name
+#	new file:   Criminal-Identification-System-master/.idea/Criminal-Identification-System-master.iml
+#	new file:   Criminal-Identification-System-master/.idea/inspectionProfiles/profiles_settings.xml
+#	new file:   Criminal-Identification-System-master/.idea/misc.xml
+#	new file:   Criminal-Identification-System-master/.idea/modules.xml
+#	new file:   Criminal-Identification-System-master/__pycache__/dbHandler.cpython-310.pyc
+#	new file:   Criminal-Identification-System-master/__pycache__/dbHandler.cpython-39.pyc
+#	new file:   Criminal-Identification-System-master/__pycache__/facerec.cpython-310.pyc
+#	new file:   Criminal-Identification-System-master/__pycache__/facerec.cpython-39.pyc
+#	new file:   Criminal-Identification-System-master/__pycache__/register.cpython-310.pyc
+#	new file:   Criminal-Identification-System-master/__pycache__/register.cpython-39.pyc
+#	new file:   Criminal-Identification-System-master/app.py
+#	new file:   Criminal-Identification-System-master/back.png
+#	new file:   Criminal-Identification-System-master/criminaldb.sql
+#	new file:   Criminal-Identification-System-master/db.txt
+#	new file:   Criminal-Identification-System-master/dbHandler.py
+#	new file:   Criminal-Identification-System-master/face_cascade.xml
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/dawood ibrahim/9.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/nityananda/9.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/nitynanda swamy/9.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/osama bin laden/9.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/qwer/9.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/1.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/10.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/2.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/3.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/4.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/5.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/6.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/7.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/8.png
+#	new file:   Criminal-Identification-System-master/face_samples/vijay mallya/9.png
+#	new file:   Criminal-Identification-System-master/facerec.py
+#	new file:   Criminal-Identification-System-master/home.py
+#	new file:   Criminal-Identification-System-master/image/Dawood Ibrahim.jpg
+#	new file:   Criminal-Identification-System-master/image/N1.webp
+#	new file:   Criminal-Identification-System-master/image/N2.jpg
+#	new file:   Criminal-Identification-System-master/image/N3.jpg
+#	new file:   Criminal-Identification-System-master/image/N4.jpeg
+#	new file:   Criminal-Identification-System-master/image/N5.jpg
+#	new file:   Criminal-Identification-System-master/image/N6.png
+#	new file:   Criminal-Identification-System-master/image/Nirav Modi.jpg
+#	new file:   Criminal-Identification-System-master/image/Vijay Mallya.jpg
+#	new file:   Criminal-Identification-System-master/image/dI2.jpg
+#	new file:   Criminal-Identification-System-master/image/dI3.jpg
+#	new file:   Criminal-Identification-System-master/image/dI4.png
+#	new file:   Criminal-Identification-System-master/image/dI7.jpg
+#	new file:   Criminal-Identification-System-master/image/nityananda.jpeg
+#	new file:   Criminal-Identification-System-master/image/o1.jpg
+#	new file:   Criminal-Identification-System-master/image/o2.jpg
+#	new file:   Criminal-Identification-System-master/image/o3.jpg
+#	new file:   Criminal-Identification-System-master/image/o4.jpg
+#	new file:   Criminal-Identification-System-master/image/o5.jpg
+#	new file:   Criminal-Identification-System-master/image/vm1.jpg
+#	new file:   Criminal-Identification-System-master/image/vm2.jpg
+#	new file:   Criminal-Identification-System-master/image/vm3.jpg
+#	new file:   Criminal-Identification-System-master/image/vm4.jpg
+#	new file:   Criminal-Identification-System-master/image/vm5.jpg
+#	new file:   Criminal-Identification-System-master/logo.png
+#	new file:   Criminal-Identification-System-master/next.png
+#	new file:   Criminal-Identification-System-master/previous.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 1.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 2.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 3.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 4.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 5.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 6.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 7.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 8.png
+#	new file:   Criminal-Identification-System-master/profile_pics/criminal 9.png
+#	new file:   Criminal-Identification-System-master/register.py
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 17-22-17.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 17-44-34.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 17-45-25.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 17-58-28.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 17-58-44.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-22 18-05-10.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-24 23-00-47.png
+#	new file:   Criminal-Identification-System-master/screenshots/Screenshot from 2018-03-24 23-16-02.png
+#	new file:   Criminal-Identification-System-master/screenshots/db schema.png
+#	new file:   Criminal-Identification-System-master/template/index.html
+#	new file:   LICENSE.txt
+#	new file:   READ-ME.txt
+#	new file:   about.html
+#	new file:   add-complaint.php
+#	new file:   admin
+#	new file:   appointment.html
+#	new file:   blog.html
+#	new file:   bootstrap.js
+#	new file:   change-password.php
+#	new file:   complaints.php
+#	new file:   contact.html
+#	new file:   criminal (2).sql
+#	new file:   criminal.sql
+#	new file:   css/bootstrap.min.css
+#	new file:   css/style.css
+#	new file:   feature.html
+#	new file:   feedback.php
+#	new file:   fir.php
+#	new file:   forgot (1).php
+#	new file:   forgot.php
+#	new file:   home.php
+#	new file:   home1.php
+#	new file:   images/1710914939.webp
+#	new file:   images/1712041899.jpg
+#	new file:   images/admin.jpeg
+#	new file:   images/admin.jpg
+#	new file:   images/admin.png
+#	new file:   img/about-1.jpg
+#	new file:   img/about-2.jpg
+#	new file:   img/addcomplaint.jpg
+#	new file:   img/admin.jpeg
+#	new file:   img/blog-1.jpg
+#	new file:   img/blog-2.jpg
+#	new file:   img/blog-3.jpg
+#	new file:   img/blog1.jpg
+#	new file:   img/blog2.jpg
+#	new file:   img/blog3.jpg
+#	new file:   img/cab.jpg
+#	new file:   img/car.jpg
+#	new file:   img/card.jpg
+#	new file:   img/carousel-1.jpg
+#	new file:   img/carousel-2.jpg
+#	new file:   img/childabuse.jpg
+#	new file:   img/crime1.jpg
+#	new file:   img/crime2.jpg
+#	new file:   img/crimestation.webp
+#	new file:   img/crimestation2 - Copy.webp
+#	new file:   img/cybercrime .avif
+#	new file:   img/dark.jpg
+#	new file:   img/document.jpg
+#	new file:   img/domestic.jpg
+#	new file:   img/dowry.jpg
+#	new file:   img/fir.webp
+#	new file:   img/footer - Copy.jpg
+#	new file:   img/highcourt.png
+#	new file:   img/kidnap2.jpg
+#	new file:   img/ladypolicebeng.png
+#	new file:   img/lawbreak.webp
+#	new file:   img/lockup - Copy.jpg
+#	new file:   img/logo1.png
+#	new file:   img/main1.jpeg
+#	new file:   img/main2.jpeg
+#	new file:   img/main3.webp
+#	new file:   img/man5.jpg
+#	new file:   img/murder2.jpg
+#	new file:   img/police - Copy.jpeg
+#	new file:   img/police1 - Copy.webp
+#	new file:   img/policebengaluru.jpg
+#	new file:   img/policemangaluru.jpg
+#	new file:   img/policeofficer1.png
+#	new file:   img/policeudupi - Copy.jpg
+#	new file:   img/precaution - Copy.jpg
+#	new file:   img/precaution.jpg
+#	new file:   img/punish1 - Copy.jpg
+#	new file:   img/punish1.jpg
+#	new file:   img/punish2 - Copy.jpg
+#	new file:   img/punish2.jpg
+#	new file:   img/punish3.jpg
+#	new file:   img/rape.avif
+#	new file:   img/rape2.jpg
+#	new file:   img/redfort - Copy.jpg
+#	new file:   img/redfort.jpg
+#	new file:   img/requesttimings.avif
+#	new file:   img/reviewback - Copy.jpg
+#	new file:   img/reviewback.jpg
+#	new file:   img/robbery.jpg
+#	new file:   img/service-1.jpg
+#	new file:   img/service-2.jpg
+#	new file:   img/service-3.jpg
+#	new file:   img/service-4.jpg
+#	new file:   img/service-5.jpg
+#	new file:   img/service-6.jpg
+#	new file:   img/service-7.jpg
+#	new file:   img/service-8.jpg
+#	new file:   img/service.jpeg
+#	new file:   img/service1.jpg
+#	new file:   img/service2.webp
+#	new file:   img/service3.avif
+#	new file:   img/service3.jpeg
+#	new file:   img/service4.png
+#	new file:   img/settings.jpg
+#	new file:   img/shred.jpg
+#	new file:   img/slider1.jpg
+#	new file:   img/slider2.jpg
+#	new file:   img/slider4.jpg
+#	new file:   img/slider5.jpg
+#	new file:   img/slider7.avif
+#	new file:   img/sliderpolice1.jpg
+#	new file:   img/sliderpolice2.jpg
+#	new file:   img/sliderpolice3.jpg
+#	new file:   img/sliderpolice4.jpg
+#	new file:   img/sliderpolice5jpg.jpeg.jpg
+#	new file:   img/stranger.jpg
+#	new file:   img/supremecourt.jpg
+#	new file:   img/team-1.jpg
+#	new file:   img/team-2.jpg
+#	new file:   img/team-3.jpg
+#	new file:   img/team-4.jpg
+#	new file:   img/testimonial-img.jpg
+#	new file:   img/traff.jpg
+#	new file:   img/video-img.jpg
+#	new file:   img/video.png
+#	new file:   img/viewcomplaint.jpg
+#	new file:   img/vigilent.jpg
+#	new file:   include/config.php
+#	new file:   include/footer.php
+#	new file:   include/header.php
+#	new file:   include/logout.php
+#	new file:   index.html
+#	new file:   index.php
+#	new file:   js/main.js
+#	new file:   lib/animate/animate.css
+#	new file:   lib/animate/animate.min.css
+#	new file:   lib/easing/easing.js
+#	new file:   lib/easing/easing.min.js
+#	new file:   lib/owlcarousel/LICENSE
+#	new file:   lib/owlcarousel/assets/ajax-loader.gif
+#	new file:   lib/owlcarousel/assets/owl.carousel.css
+#	new file:   lib/owlcarousel/assets/owl.carousel.min.css
+#	new file:   lib/owlcarousel/assets/owl.theme.default.css
+#	new file:   lib/owlcarousel/assets/owl.theme.default.min.css
+#	new file:   lib/owlcarousel/assets/owl.theme.green.css
+#	new file:   lib/owlcarousel/assets/owl.theme.green.min.css
+#	new file:   lib/owlcarousel/assets/owl.video.play.png
+#	new file:   lib/owlcarousel/owl.carousel.js
+#	new file:   lib/owlcarousel/owl.carousel.min.js
+#	new file:   lib/waypoints/links.php
+#	new file:   lib/waypoints/waypoints.min.js
+#	new file:   lib/wow/wow.js
+#	new file:   lib/wow/wow.min.js
+#	new file:   login.php
+#	new file:   main.js
+#	new file:   menu.js
+#	new file:   physical-therapy-website-template.jpg
+#	new file:   prision-request.php
+#	new file:   registration.php
+#	new file:   scss/bootstrap.scss
+#	new file:   scss/bootstrap/scss/_accordion.scss
+#	new file:   scss/bootstrap/scss/_alert.scss
+#	new file:   scss/bootstrap/scss/_badge.scss
+#	new file:   scss/bootstrap/scss/_breadcrumb.scss
+#	new file:   scss/bootstrap/scss/_button-group.scss
+#	new file:   scss/bootstrap/scss/_buttons.scss
+#	new file:   scss/bootstrap/scss/_card.scss
+#	new file:   scss/bootstrap/scss/_carousel.scss
+#	new file:   scss/bootstrap/scss/_close.scss
+#	new file:   scss/bootstrap/scss/_containers.scss
+#	new file:   scss/bootstrap/scss/_dropdown.scss
+#	new file:   scss/bootstrap/scss/_forms.scss
+#	new file:   scss/bootstrap/scss/_functions.scss
+#	new file:   scss/bootstrap/scss/_grid.scss
+#	new file:   scss/bootstrap/scss/_helpers.scss
+#	new file:   scss/bootstrap/scss/_images.scss
+#	new file:   scss/bootstrap/scss/_list-group.scss
+#	new file:   scss/bootstrap/scss/_mixins.scss
+#	new file:   scss/bootstrap/scss/_modal.scss
+#	new file:   scss/bootstrap/scss/_nav.scss
+#	new file:   scss/bootstrap/scss/_navbar.scss
+#	new file:   scss/bootstrap/scss/_offcanvas.scss
+#	new file:   scss/bootstrap/scss/_pagination.scss
+#	new file:   scss/bootstrap/scss/_popover.scss
+#	new file:   scss/bootstrap/scss/_progress.scss
+#	new file:   scss/bootstrap/scss/_reboot.scss
+#	new file:   scss/bootstrap/scss/_root.scss
+#	new file:   scss/bootstrap/scss/_spinners.scss
+#	new file:   scss/bootstrap/scss/_tables.scss
+#	new file:   scss/bootstrap/scss/_toasts.scss
+#	new file:   scss/bootstrap/scss/_tooltip.scss
+#	new file:   scss/bootstrap/scss/_transitions.scss
+#	new file:   scss/bootstrap/scss/_type.scss
+#	new file:   scss/bootstrap/scss/_utilities.scss
+#	new file:   scss/bootstrap/scss/_variables.scss
+#	new file:   scss/bootstrap/scss/bootstrap-grid.scss
+#	new file:   scss/bootstrap/scss/bootstrap-reboot.scss
+#	new file:   scss/bootstrap/scss/bootstrap-utilities.scss
+#	new file:   scss/bootstrap/scss/bootstrap.scss
+#	new file:   scss/bootstrap/scss/forms/_floating-labels.scss
+#	new file:   scss/bootstrap/scss/forms/_form-check.scss
+#	new file:   scss/bootstrap/scss/forms/_form-control.scss
+#	new file:   scss/bootstrap/scss/forms/_form-range.scss
+#	new file:   scss/bootstrap/scss/forms/_form-select.scss
+#	new file:   scss/bootstrap/scss/forms/_form-text.scss
+#	new file:   scss/bootstrap/scss/forms/_input-group.scss
+#	new file:   scss/bootstrap/scss/forms/_labels.scss
+#	new file:   scss/bootstrap/scss/forms/_validation.scss
+#	new file:   scss/bootstrap/scss/helpers/_clearfix.scss
+#	new file:   scss/bootstrap/scss/helpers/_colored-links.scss
+#	new file:   scss/bootstrap/scss/helpers/_position.scss
+#	new file:   scss/bootstrap/scss/helpers/_ratio.scss
+#	new file:   scss/bootstrap/scss/helpers/_stretched-link.scss
+#	new file:   scss/bootstrap/scss/helpers/_text-truncation.scss
+#	new file:   scss/bootstrap/scss/helpers/_visually-hidden.scss
+#	new file:   scss/bootstrap/scss/mixins/_alert.scss
+#	new file:   scss/bootstrap/scss/mixins/_border-radius.scss
+#	new file:   scss/bootstrap/scss/mixins/_box-shadow.scss
+#	new file:   scss/bootstrap/scss/mixins/_breakpoints.scss
+#	new file:   scss/bootstrap/scss/mixins/_buttons.scss
+#	new file:   scss/bootstrap/scss/mixins/_caret.scss
+#	new file:   scss/bootstrap/scss/mixins/_clearfix.scss
+#	new file:   scss/bootstrap/scss/mixins/_color-scheme.scss
+#	new file:   scss/bootstrap/scss/mixins/_container.scss
+#	new file:   scss/bootstrap/scss/mixins/_deprecate.scss
+#	new file:   scss/bootstrap/scss/mixins/_forms.scss
+#	new file:   scss/bootstrap/scss/mixins/_gradients.scss
+#	new file:   scss/bootstrap/scss/mixins/_grid.scss
+#	new file:   scss/bootstrap/scss/mixins/_image.scss
+#	new file:   scss/bootstrap/scss/mixins/_list-group.scss
+#	new file:   scss/bootstrap/scss/mixins/_lists.scss
+#	new file:   scss/bootstrap/scss/mixins/_pagination.scss
+#	new file:   scss/bootstrap/scss/mixins/_reset-text.scss
+#	new file:   scss/bootstrap/scss/mixins/_resize.scss
+#	new file:   scss/bootstrap/scss/mixins/_table-variants.scss
+#	new file:   scss/bootstrap/scss/mixins/_text-truncate.scss
+#	new file:   scss/bootstrap/scss/mixins/_transition.scss
+#	new file:   scss/bootstrap/scss/mixins/_utilities.scss
+#	new file:   scss/bootstrap/scss/mixins/_visually-hidden.scss
+#	new file:   scss/bootstrap/scss/utilities/_api.scss
+#	new file:   scss/bootstrap/scss/vendor/_rfs.scss
+#	new file:   service.html
+#	new file:   team.html
+#	new file:   testimonial.html
+#	new file:   userforgot.php
+#	new file:   view-complaint.php
+#	new file:   view-prisoner-time.php
+#
+# Changes not staged for commit:
+#	modified:   admin (untracked content)
+#

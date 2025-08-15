@@ -75,7 +75,7 @@
                         <a href="fir.php" class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'fir.php' ? 'active' : ''; ?> ">FIR</a>
                         <a href="view-prisoner-time.php" class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'view-prisoner-time.php' ? 'active' : ''; ?> "> Verify Prisons time</a>
                         <a href="complaints.php" class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'complaints.php' ? 'active' : ''; ?>">Complaints</a>
-                        <a href="http://127.0.0.1:5000" class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'http://127.0.0.1:5000' ? 'active' : ''; ?>">Criminal Detection</a>
+                       
                         <a href="change-password.php" class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'change-password.php' ? 'active' : ''; ?>">Settings</a>
 
                     <?php
